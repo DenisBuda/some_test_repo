@@ -19,3 +19,13 @@ def function_second(a:int,
 
 summary2 = function_first(10, 25)
 print(summary2)
+
+
+def function_third(a:int,
+                    b:int,
+                    c:int):
+    return a+b+c
+
+
+summary3 = function_first(10, 25)
+print(summary3)
