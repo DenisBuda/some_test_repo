@@ -9,3 +9,13 @@ def function_first(a: int,
 
 summary = function_first(10, 25)
 print(summary)
+
+
+def function_second(a:int,
+                    b:int,
+                    c:int):
+    return a+b+c
+
+
+summary2 = function_first(10, 25)
+print(summary2)
