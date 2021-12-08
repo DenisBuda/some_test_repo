@@ -1,31 +1,19 @@
-print("first_prog")
-print("New string")
+from json_schema import json_schema
+import requests
+
+my_url = "https://www.google.ru/"
 
 
-def function_first(a: int,
-                   b: int):
-    return a + b
+def test_function():
+    assert requests.get(my_url).status_code
+    print(requests.get(my_url).status_code)
+
+# test_function(my_url)
 
 
-summary = function_first(10, 25)
-print(summary)
 
 
-def function_second(a:int,
-                    b:int,
-                    c:int):
-    return a+b+c
 
 
-summary2 = function_first(10, 25)
-print(summary2)
 
 
-def function_third(a:int,
-                    b:int,
-                    c:int):
-    return a+b+c
-
-
-summary3 = function_first(10, 25)
-print(summary3)
