@@ -1,4 +1,7 @@
 print("first_prog")
+print("New string")
+
+
 
 
 def function_first(a: int,
